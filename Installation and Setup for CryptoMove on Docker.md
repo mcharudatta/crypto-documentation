@@ -1,16 +1,16 @@
 # Install Docker
  
-* sudo apt-get install linux-image-extra-$(name -r)
-* sudo apt-get install linux-image-extra-virtual
-* sudo apt-get update
-* sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
-* curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-* sudo apt-key fingerprint 0EBFCD88
-* sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-* sudo apt-get update
-* sudo apt-get install docker-ce
-* docker build -t cryptomove .
-* docker run -ti --privileged cryptomove /bin/bash
+1. sudo apt-get install linux-image-extra-$(name -r)
+1. sudo apt-get install linux-image-extra-virtual
+1. sudo apt-get update
+1. sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+1. curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+1. sudo apt-key fingerprint 0EBFCD88
+1. sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+1. sudo apt-get update
+1. sudo apt-get install docker-ce
+1. docker build -t cryptomove .
+1. docker run -ti --privileged cryptomove /bin/bash
 
 # Mount an S3 bucket to an EC2 instance
 
