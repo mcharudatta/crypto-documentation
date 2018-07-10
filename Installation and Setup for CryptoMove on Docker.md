@@ -1,4 +1,4 @@
-Install Docker
+# Install Docker
  
 1.    sudo apt-get install linux-image-extra-$(name -r)
 2.    sudo apt-get install linux-image-extra-virtual
